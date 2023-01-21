@@ -4,6 +4,7 @@
         padding: 0;
         box-sizing: border-box;
         margin: 0;
+        text-decoration: none;
     }
 
     @font-face {
@@ -13,11 +14,19 @@
         font-style: normal;}
     
 header{
-    background: linear-gradient(to bottom, rgb(140, 205, 216), rgb(90, 103, 179));
+    background: linear-gradient(to bottom, rgb(67, 70, 230), rgba(0, 0, 0, 0.274));
     min-height: 150px;
     text-align: center;
     
     
+}
+
+h1,h2{ 
+    color: white;
+}
+
+a{
+    color: white;
 }
 .subtitulos{
     padding-top: 20px;
@@ -69,10 +78,9 @@ ul > li > a:hover{
 
 
 main{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.322);
     margin: auto;
     border-radius: 5px;
-
     min-height: 320px;
     max-width: 980px;
     padding: 10px;
@@ -80,8 +88,9 @@ main{
 }
 
 
+
 body{
-    background-color: rgb(182, 185, 248);
+    background-color: bisque;
     text-align: center;
     height: auto;
     width: 900px;
@@ -91,7 +100,7 @@ body{
 
 h1.titulos{ 
     font-family: 'letra';
-    background: linear-gradient(to right, rgb(118, 189, 247), transparent);
+    background: linear-gradient(to right, rgb(113, 81, 255), transparent);
     font-size: 1.4em;
 
 
@@ -99,7 +108,7 @@ h1.titulos{
 
 h2.titulo{
     font-family: 'letra';
-    background: linear-gradient(to right, rgb(118, 189, 247), transparent);
+    background: linear-gradient(to right, rgb(113, 81, 255), transparent);
     height: auto;
     width: auto;
     right: 5px;
@@ -116,8 +125,8 @@ iframe{
 } 
 
 .ppdois{
-    text-align: left;
-    background-color: rgb(111, 121, 177);
+    text-align: center;
+    background: linear-gradient(to right, rgb(113, 81, 255), transparent);
     border-radius: 3px;
     font-size: 1em;
     color: white;
@@ -126,7 +135,7 @@ iframe{
 div{
     padding-top: 18px;
     margin-top: 18px;
-    background-color: #a1d9f3;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.158));
     padding-left: 10px;
     border-radius: 6px;
     font-size: 1em;
@@ -153,4 +162,6 @@ div{
 
     
 }
-
+k > a {
+    color: white;
+}
